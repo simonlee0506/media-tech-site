@@ -1,11 +1,12 @@
 import { type ClassValue, clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
+import type { Product } from '@/types';
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const products = [
+export const products: Product[] = [
   {
     id: 'collectra',
     name: 'Collectra',
@@ -23,7 +24,7 @@ export const products = [
     platforms: ['macOS', 'Windows'],
     price: '$29.99',
     badge: 'One-time purchase',
-    category: 'collector' as const
+    category: 'collector'
   },
   {
     id: 'fetchera',
@@ -42,7 +43,7 @@ export const products = [
     platforms: ['iOS'],
     price: 'Free',
     badge: 'No subscription',
-    category: 'collector' as const
+    category: 'collector'
   },
   {
     id: 'resontra',
@@ -61,7 +62,7 @@ export const products = [
     platforms: ['iOS'],
     price: '$9.99',
     badge: '7-day free trial',
-    category: 'collector' as const
+    category: 'collector'
   },
   {
     id: 'bam',
@@ -80,6 +81,6 @@ export const products = [
     platforms: ['macOS', 'Windows'],
     price: 'From $12.99 CAD',
     badge: '14-day free trial',
-    category: 'research' as const
+    category: 'research'
   }
-] as const;
+];

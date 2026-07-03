@@ -5,11 +5,15 @@ import { notFound } from 'next/navigation';
 export const locales = ['en', 'fr', 'zh'] as const;
 export const defaultLocale = 'en' as const;
 
-export default getRequestConfig(async ({ locale }) => {
+export default getRequestConfig(async ({ locale }: { locale?: string }) => {
+  // Ensure locale is defined
+  const currentLocale = locale || defaultLocale;
+
   // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as any)) notFound();
+  if (!locales.includes(currentLocale as any)) notFound();
 
   return {
-    messages: (await import(`../locales/${locale}.json`)).default
+    messages: (await import(`../locales/${currentLocale}.json`)).default,
+    locale: currentLocale,
   };
 });

@@ -10,14 +10,15 @@ const inter = Inter({
   display: 'swap',
 });
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
-  params: { locale }
+  params
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  const messages = getMessages();
+  const { locale } = await params;
+  const messages = await getMessages();
 
   return (
     <html lang={locale} className={inter.className}>

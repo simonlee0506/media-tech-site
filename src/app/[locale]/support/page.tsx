@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Mail, MessageSquare, FileText, Github } from 'lucide-react';
+import { Mail, MessageSquare, FileText, ExternalLink } from 'lucide-react';
 
 export default function SupportPage() {
   const t = useTranslations('common');
@@ -43,7 +43,7 @@ export default function SupportPage() {
             <div className="bg-white rounded-xl p-8 shadow-sm">
               <div className="flex items-center gap-4 mb-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                  <Github className="w-6 h-6 text-primary" />
+                  <ExternalLink className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold">GitHub</h3>
               </div>
@@ -151,7 +151,7 @@ export default function SupportPage() {
             </a>
 
             <a
-              href="https://resontra.media-tech.ca"
+              href="https://rescontra.media-tech.ca"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow border-l-4 border-resontra"
