@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Cloudflare Pages 兼容配置
+  output: 'standalone',
+  // 静态导出优化
+  trailingSlash: false,
 };
 
 export default withNextIntl(nextConfig);
