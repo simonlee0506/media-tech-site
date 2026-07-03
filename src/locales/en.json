@@ -1,0 +1,147 @@
+{
+  "common": {
+    "brand": "Media-Tech",
+    "home": "Home",
+    "products": "Products",
+    "blog": "Blog",
+    "about": "About",
+    "subscribe": "Subscribe",
+    "support": "Support",
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "visitWebsite": "Visit Website",
+    "download": "Download",
+    "copyright": "© 2024 Media-Tech. All rights reserved."
+  },
+  "home": {
+    "heroTitle": "Thoughtful software for collectors, creators, and researchers",
+    "heroSubtitle": "Discover · Organize · Reflect · Research",
+    "heroCTA": "Explore Products",
+    "productsTitle": "Our Products",
+    "ecosystemTitle": "A Connected Ecosystem",
+    "ecosystemDescription": "Our products work together to provide a complete toolkit for collectors and researchers.",
+    "blogTitle": "Latest from the Blog",
+    "blogCTA": "View All Posts",
+    "subscribeTitle": "Stay Updated",
+    "subscribeDescription": "Get the latest updates about our products and collections.",
+    "subscribeButton": "Subscribe",
+    "subscribeEmail": "Enter your email",
+    "subscribeSuccess": "Thank you for subscribing!",
+    "subscribeError": "Something went wrong. Please try again."
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Four tools designed around knowledge and discovery",
+    "visitSite": "Visit Website",
+    "platforms": "Platform",
+    "price": "Price",
+    "features": "Features",
+    "download": "Download",
+    "ecosystem": {
+      "title": "The Collector's Ecosystem",
+      "description": "Collectra, Fetchera, and Resontra work together seamlessly",
+      "collectra": "Desktop archive",
+      "fetchera": "Field scanner",
+      "resontra": "Reflection journal"
+    },
+    "bam": {
+      "title": "Research Tool",
+      "description": "AI-powered literature discovery for researchers"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Discover the world of collecting, research, and knowledge",
+    "readTime": "min read",
+    "tags": "Tags",
+    "author": "By",
+    "date": "Published on",
+    "relatedPosts": "Related Posts",
+    "share": "Share",
+    "noPosts": "No posts found",
+    "subscribeNewsletter": "Subscribe to our newsletter",
+    "subscribeDescription": "Get notified when we publish new articles."
+  },
+  "about": {
+    "title": "About Media-Tech",
+    "subtitle": "Thoughtful software for collectors, creators, and researchers",
+    "mission": "Our Mission",
+    "missionDescription": "We build tools that help people discover, organize, reflect on, and research knowledge. Our products are designed with privacy, simplicity, and genuine utility in mind.",
+    "values": "Our Values",
+    "privacy": "Privacy First",
+    "privacyDescription": "Your data belongs to you. We design with local storage and no unnecessary cloud dependencies.",
+    "simplicity": "Simplicity",
+    "simplicityDescription": "Beautiful, intuitive interfaces that let you focus on what matters.",
+    "quality": "Quality",
+    "qualityDescription": "Well-crafted software that stands the test of time.",
+    "contact": "Contact",
+    "email": "Email",
+    "social": "Social Media"
+  },
+  "productsData": {
+    "collectra": {
+      "name": "Collectra",
+      "tagline": "Organize and preserve your collections",
+      "description": "Personal Collection Manager for Mac & Windows. Catalog vinyl records, cameras, books, hi-fi equipment, CDs, cassettes, and computers with powerful organization tools and 100% local storage.",
+      "features": [
+        "7 dedicated collection categories",
+        "Statistics dashboard with visualizations",
+        "Import from Excel, CSV, JSON, and barcode scans",
+        "Export in multiple formats",
+        "Instant search and advanced filtering",
+        "100% local storage - no cloud dependency"
+      ],
+      "platforms": ["macOS 12+", "Windows 10+"],
+      "price": "$29.99",
+      "badge": "One-time purchase"
+    },
+    "fetchera": {
+      "name": "Fetchera",
+      "tagline": "Discover hidden treasures with confidence",
+      "description": "iOS barcode scanner and market price checker. Scan items in real-time, check market prices across multiple databases, and avoid duplicate purchases when integrated with Collectra.",
+      "features": [
+        "Instant barcode scanning with camera",
+        "Real-time market price checking",
+        "Duplicate detection with Collectra integration",
+        "Scan history for price comparison",
+        "Support for Discogs, Open Library, Google Books, eBay",
+        "100% on-device data storage"
+      ],
+      "platforms": ["iOS 15+"],
+      "price": "Free",
+      "badge": "No subscription"
+    },
+    "resontra": {
+      "name": "Resontra",
+      "tagline": "Your media ritual journal",
+      "description": "iOS ritual journal for books, records, and art that stays with you. Begin sessions, capture notes and excerpts with handwriting and photos, and end with reflection. Features beautiful paper-like experience with lock protection.",
+      "features": [
+        "Ritual sessions with mood tracking",
+        "Three-chapter structure: Notes, Excerpts, Reflections",
+        "Apple Pencil handwriting support",
+        "Inline photo and PDF attachments",
+        "Authentic book-like experience with page turns",
+        "Combination lock for privacy"
+      ],
+      "platforms": ["iOS 15+"],
+      "price": "$9.99",
+      "badge": "7-day free trial"
+    },
+    "bam": {
+      "name": "BAM Literature Assistant",
+      "tagline": "AI-powered bio-agri-med literature discovery",
+      "description": "Academic research tool for biomedical literature search, retrieval, and AI-powered review generation. Designed for researchers in biology, agriculture, and medicine with multi-source support and intelligent summarization.",
+      "features": [
+        "Multi-database search (PubMed, Europe PMC, bioRxiv, OpenAlex)",
+        "Full-text retrieval with automatic PDF download",
+        "AI-powered review generation (Claude or Zhipu GLM)",
+        "Full-text translation preserving academic terminology",
+        "Abstract translation for quick screening",
+        "Export to Word/Excel formats"
+      ],
+      "platforms": ["macOS", "Windows 10/11"],
+      "price": "From $12.99 CAD",
+      "badge": "14-day free trial"
+    }
+  }
+}

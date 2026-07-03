@@ -1,0 +1,147 @@
+{
+  "common": {
+    "brand": "Media-Tech",
+    "home": "首页",
+    "products": "产品",
+    "blog": "博客",
+    "about": "关于",
+    "subscribe": "订阅",
+    "support": "支持",
+    "learnMore": "了解更多",
+    "readMore": "阅读更多",
+    "visitWebsite": "访问网站",
+    "download": "下载",
+    "copyright": "© 2024 Media-Tech. 版权所有。"
+  },
+  "home": {
+    "heroTitle": "为收藏者、创作者和研究者打造的精良软件",
+    "heroSubtitle": "发现 · 组织 · 反思 · 研究",
+    "heroCTA": "探索产品",
+    "productsTitle": "我们的产品",
+    "ecosystemTitle": "互联生态系统",
+    "ecosystemDescription": "我们的产品协同工作，为收藏者和研究者提供完整的工具包。",
+    "blogTitle": "博客精选",
+    "blogCTA": "查看所有文章",
+    "subscribeTitle": "保持更新",
+    "subscribeDescription": "获取我们产品和收藏的最新动态。",
+    "subscribeButton": "订阅",
+    "subscribeEmail": "输入您的邮箱",
+    "subscribeSuccess": "感谢您的订阅！",
+    "subscribeError": "出错了，请重试。"
+  },
+  "products": {
+    "title": "产品",
+    "subtitle": "围绕知识和发现设计的四款工具",
+    "visitSite": "访问网站",
+    "platforms": "平台",
+    "price": "价格",
+    "features": "功能",
+    "download": "下载",
+    "ecosystem": {
+      "title": "收藏者生态系统",
+      "description": "Collectra、Fetchera 和 Rescontra 无缝协作",
+      "collectra": "桌面档案",
+      "fetchera": "现场扫描",
+      "resontra": "反思日记"
+    },
+    "bam": {
+      "title": "研究工具",
+      "description": "为研究者打造的 AI 驱动文献发现工具"
+    }
+  },
+  "blog": {
+    "title": "博客",
+    "subtitle": "探索收藏、研究和知识的世界",
+    "readTime": "分钟阅读",
+    "tags": "标签",
+    "author": "作者",
+    "date": "发布于",
+    "relatedPosts": "相关文章",
+    "share": "分享",
+    "noPosts": "暂无文章",
+    "subscribeNewsletter": "订阅我们的通讯",
+    "subscribeDescription": "新文章发布时获取通知。"
+  },
+  "about": {
+    "title": "关于 Media-Tech",
+    "subtitle": "为收藏者、创作者和研究者打造的精良软件",
+    "mission": "我们的使命",
+    "missionDescription": "我们构建帮助人们发现、组织、反思和研究知识的工具。我们的产品注重隐私、简洁和实用价值。",
+    "values": "我们的价值观",
+    "privacy": "隐私优先",
+    "privacyDescription": "您的数据属于您。我们采用本地存储设计，没有不必要的云依赖。",
+    "simplicity": "简洁",
+    "simplicityDescription": "美观、直观的界面，让您专注于重要的事情。",
+    "quality": "品质",
+    "qualityDescription": "精心打造的软件，经得起时间的考验。",
+    "contact": "联系方式",
+    "email": "邮箱",
+    "social": "社交媒体"
+  },
+  "productsData": {
+    "collectra": {
+      "name": "Collectra",
+      "tagline": "组织和保存您的收藏",
+      "description": "Mac 和 Windows 个人收藏管理器。使用强大的组织工具和 100% 本地存储，编目黑胶唱片、相机、书籍、高保真设备、CD、磁带和计算机。",
+      "features": [
+        "7 个专用收藏类别",
+        "带有可视化的统计仪表板",
+        "从 Excel、CSV、JSON 和条形码扫描导入",
+        "支持多种格式导出",
+        "即时搜索和高级筛选",
+        "100% 本地存储 - 无云依赖"
+      ],
+      "platforms": ["macOS 12+", "Windows 10+"],
+      "price": "$29.99",
+      "badge": "一次性购买"
+    },
+    "fetchera": {
+      "name": "Fetchera",
+      "tagline": "自信地发现隐藏的宝藏",
+      "description": "iOS 条码扫描器和市场价格检查器。实时扫描物品，检查多个数据库的市场价格，与 Collectra 集成时避免重复购买。",
+      "features": [
+        "使用相机即时扫描条形码",
+        "实时市场价格检查",
+        "与 Collectra 集成检测重复",
+        "扫描历史用于价格对比",
+        "支持 Discogs、Open Library、Google Books、eBay",
+        "100% 本地数据存储"
+      ],
+      "platforms": ["iOS 15+"],
+      "price": "免费",
+      "badge": "无订阅"
+    },
+    "resontra": {
+      "name": "Resontra",
+      "tagline": "您的媒体仪式日记",
+      "description": "适用于书籍、唱片和伴随您的艺术品的 iOS 仪式日记。开始会话，使用手写和照片捕捉笔记和摘录，并以反思结束。具有类似纸张的精美体验和密码保护。",
+      "features": [
+        "带有心情追踪的仪式会话",
+        "三章节结构：笔记、摘录、反思",
+        "支持 Apple Pencil 手写",
+        "内联照片和 PDF 附件",
+        "真实书本般体验，带翻页效果",
+        "组合密码锁保护隐私"
+      ],
+      "platforms": ["iOS 15+"],
+      "price": "$9.99",
+      "badge": "7 天免费试用"
+    },
+    "bam": {
+      "name": "BAM 文献助手",
+      "tagline": "AI 驱动的生物农业医学文献发现",
+      "description": "面向生物学、农业和医学研究者的学术研究工具，用于文献搜索、检索和 AI 驱动的综述生成。支持多数据库和智能摘要。",
+      "features": [
+        "多数据库搜索（PubMed、Europe PMC、bioRxiv、OpenAlex）",
+        "全文检索与自动 PDF 下载",
+        "AI 驱动的综述生成（Claude 或智谱 GLM）",
+        "保留学术术语的全文翻译",
+        "用于快速筛选的摘要翻译",
+        "导出到 Word/Excel 格式"
+      ],
+      "platforms": ["macOS", "Windows 10/11"],
+      "price": "从 $12.99 CAD 起",
+      "badge": "14 天免费试用"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "common": {
+    "brand": "Media-Tech",
+    "home": "Accueil",
+    "products": "Produits",
+    "blog": "Blog",
+    "about": "À propos",
+    "subscribe": "S'abonner",
+    "support": "Support",
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite",
+    "visitWebsite": "Visiter le site",
+    "download": "Télécharger",
+    "copyright": "© 2024 Media-Tech. Tous droits réservés."
+  },
+  "home": {
+    "heroTitle": "Logiciels réfléchis pour les collectionneurs, créateurs et chercheurs",
+    "heroSubtitle": "Découvrir · Organiser · Réfléchir · Rechercher",
+    "heroCTA": "Explorer les produits",
+    "productsTitle": "Nos produits",
+    "ecosystemTitle": "Un écosystème connecté",
+    "ecosystemDescription": "Nos produits fonctionnent ensemble pour offrir une boîte à outils complète pour les collectionneurs et les chercheurs.",
+    "blogTitle": "Derniers articles du blog",
+    "blogCTA": "Voir tous les articles",
+    "subscribeTitle": "Restez informé",
+    "subscribeDescription": "Recevez les dernières mises à jour sur nos produits et collections.",
+    "subscribeButton": "S'abonner",
+    "subscribeEmail": "Entrez votre email",
+    "subscribeSuccess": "Merci de votre abonnement !",
+    "subscribeError": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "products": {
+    "title": "Produits",
+    "subtitle": "Quatre outils conçus autour de la connaissance et de la découverte",
+    "visitSite": "Visiter le site",
+    "platforms": "Plateforme",
+    "price": "Prix",
+    "features": "Fonctionnalités",
+    "download": "Télécharger",
+    "ecosystem": {
+      "title": "L'écosystème du collectionneur",
+      "description": "Collectra, Fetchera et Rescontra travaillent ensemble de manière transparente",
+      "collectra": "Archive de bureau",
+      "fetchera": "Scanneur de terrain",
+      "rescontra": "Journal de réflexion"
+    },
+    "bam": {
+      "title": "Outil de recherche",
+      "description": "Découverte de littérature propulsée par l'IA pour les chercheurs"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Découvrez le monde de la collection, de la recherche et du savoir",
+    "readTime": "min de lecture",
+    "tags": "Étiquettes",
+    "author": "Par",
+    "date": "Publié le",
+    "relatedPosts": "Articles connexes",
+    "share": "Partager",
+    "noPosts": "Aucun article trouvé",
+    "subscribeNewsletter": "Abonnez-vous à notre newsletter",
+    "subscribeDescription": "Soyez notifié lorsque nous publions de nouveaux articles."
+  },
+  "about": {
+    "title": "À propos de Media-Tech",
+    "subtitle": "Logiciels réfléchis pour les collectionneurs, créateurs et chercheurs",
+    "mission": "Notre mission",
+    "missionDescription": "Nous créons des outils qui aident les gens à découvrir, organiser, réfléchir sur et rechercher la connaissance. Nos produits sont conçus avec le souci de la confidentialité, de la simplicité et de l'utilité réelle.",
+    "values": "Nos valeurs",
+    "privacy": "Confidentialité d'abord",
+    "privacyDescription": "Vos données vous appartiennent. Nous concevons avec un stockage local et sans dépendances cloud inutiles.",
+    "simplicity": "Simplicité",
+    "simplicityDescription": "Interfaces belles et intuitives qui vous permettent de vous concentrer sur ce qui compte.",
+    "quality": "Qualité",
+    "qualityDescription": "Logiciels bien conçus qui résistent à l'épreuve du temps.",
+    "contact": "Contact",
+    "email": "Email",
+    "social": "Médias sociaux"
+  },
+  "productsData": {
+    "collectra": {
+      "name": "Collectra",
+      "tagline": "Organisez et préservez vos collections",
+      "description": "Gestionnaire de collections personnelles pour Mac et Windows. Cataloguez des vinyles, appareils photo, livres, équipements hi-fi, CD, cassettes et ordinateurs avec des outils d'organisation puissants et un stockage 100% local.",
+      "features": [
+        "7 catégories de collections dédiées",
+        "Tableau de bord statistiques avec visualisations",
+        "Import depuis Excel, CSV, JSON et scans de codes-barres",
+        "Export dans plusieurs formats",
+        "Recherche instantanée et filtrage avancé",
+        "Stockage 100% local - aucune dépendance cloud"
+      ],
+      "platforms": ["macOS 12+", "Windows 10+"],
+      "price": "$29.99",
+      "badge": "Achat unique"
+    },
+    "fetchera": {
+      "name": "Fetchera",
+      "tagline": "Découvrez des trésors cachés en toute confiance",
+      "description": "Scanneur de codes-barres iOS et vérificateur de prix du marché. Scannez des articles en temps réel, vérifiez les prix du marché sur plusieurs bases de données et évitez les achats en double lorsqu'il est intégré avec Collectra.",
+      "features": [
+        "Scan de codes-barres instantané avec caméra",
+        "Vérification des prix du marché en temps réel",
+        "Détection de doublons avec intégration Collectra",
+        "Historique de scans pour comparaison des prix",
+        "Support pour Discogs, Open Library, Google Books, eBay",
+        "Stockage de données 100% sur l'appareil"
+      ],
+      "platforms": ["iOS 15+"],
+      "price": "Gratuit",
+      "badge": "Sans abonnement"
+    },
+    "resontra": {
+      "name": "Resontra",
+      "tagline": "Votre journal rituel multimédia",
+      "description": "Journal rituel iOS pour les livres, les disques et l'art qui vous accompagne. Commencez des sessions, capturez des notes et des extraits avec l'écriture manuscrite et des photos, et terminez par une réflexion. Expérience similaire au papier avec protection par cadenas.",
+      "features": [
+        "Sessions rituelles avec suivi de l'humeur",
+        "Structure à trois chapitres : Notes, Extraits, Réflexions",
+        "Support de l'écriture manuscrite avec Apple Pencil",
+        "Pièces jointes de photos et PDF en ligne",
+        "Expérience authentique semblable à un livre avec tours de page",
+        "Cadenas à combinaison pour la confidentialité"
+      ],
+      "platforms": ["iOS 15+"],
+      "price": "$9.99",
+      "badge": "Essai gratuit de 7 jours"
+    },
+    "bam": {
+      "name": "BAM Assistant de Littérature",
+      "tagline": "Découverte de littérature bio-agri-méd propulsée par l'IA",
+      "description": "Outil de recherche académique pour la recherche, la récupération et la génération de revues de littérature propulsées par l'IA dans le domaine biomédical. Conçu pour les chercheurs en biologie, agriculture et médecine avec support multi-sources et résumé intelligent.",
+      "features": [
+        "Recherche multi-base de données (PubMed, Europe PMC, bioRxiv, OpenAlex)",
+        "Récupération du texte intégral avec téléchargement automatique de PDF",
+        "Génération de revues propulsée par l'IA (Claude ou Zhipu GLM)",
+        "Traduction du texte intégral préservant la terminologie académique",
+        "Traduction de résumés pour un dépistage rapide",
+        "Export aux formats Word/Excel"
+      ],
+      "platforms": ["macOS", "Windows 10/11"],
+      "price": "À partir de $12.99 CAD",
+      "badge": "Essai gratuit de 14 jours"
+    }
+  }
+}
