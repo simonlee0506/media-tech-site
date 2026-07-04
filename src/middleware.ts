@@ -6,7 +6,8 @@ export default createMiddleware({
   locales,
   // Used when no locale matches
   defaultLocale,
-  localePrefix: 'as-needed'
+  // 总是显示语言前缀，避免重定向循环
+  localePrefix: 'always',
 });
 
 export const config = {
