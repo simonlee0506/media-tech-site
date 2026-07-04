@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { ArrowRight, Link2, Zap, BookOpen } from 'lucide-react';
 
 export default function Ecosystem() {
-  const t = useTranslations('products');
+  const t = useTranslations('home');
 
   return (
     <section className="py-20 bg-white">
